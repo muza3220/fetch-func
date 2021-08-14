@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Kristen ITC', sans-serif;
+    background-color: #FEF8EC;
+    padding-top: 60px;
+    text-align: center;
+    position: relative;
+}
+
+/* #E4B781 */
+
+.input { 
+    font-family: 'Showcard Gothic', sans-serif;
+    padding: 10px 15px;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: #FEF8EC;
+    color: #2874A6;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px  inset;
+}
+
+.input::placeholder {
+    opacity: .5;
+}
+
+.select-css { 
+    font-family: 'jokerman';
+    margin-left: 40px;
+    padding: 10px 15px;
+    padding-right: 5px;
+    background-color: #F1C40F;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 20px;
+    opacity: .8;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.option2 {
+    background-color: #F4D03F;
+}
+
+.option3 {
+    background-color: #F7DC6F;
+}
+
+.option4 {
+    background-color: #F9E79F;
+}
+
+.list {
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-item { 
+    opacity: .6;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+.list-item:hover{
+    transform: scale(1.02);
+    opacity: 1;
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.wrapper-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-changer-btns {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 30px;
+    background-color: #FEF8EC;
+    vertical-align: center;
+}
+
+.todo-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.todo-type {
+    font-style: italic;
+    opacity: .5;
+    font-size: 14px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.todo-year {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.imdb-id { 
+    text-decoration: underline;
+}
+
+
+
+
+.dis-non {
+    display: none;
+}
+
+.spinnerSvg {
+    margin-top: 100px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>new work</title>
+</head>
+<body>
+    
+    <input class="input" type="search" autocomplete="off" placeholder="search...">
+    <select class="select select-css">
+        <option class="option1" value="">All Types</option>
+        <option class="option2" value="movie">Movie</option>
+        <option class="option3" value="series">Series</option>
+        <option class="option4" value="episode">Episode</option>
+    </select>
+
+    <ul class="list"></ul>
+    
+    <div class="wrapper-btns dis-non" id="btnWrapper">
+        <button class="to-left page-changer-btns"><img id="arrow-imgs"  src="./images/left-arrow.svg" width='60' height="40" /></button>
+        <p id="pageBlock">(1/10)</p> &nbsp;
+        <p class="totalPageNumber">number</p>
+        <button class="to-right page-changer-btns"><img id="arrow-imgs"  src="./images/right-arrow.svg" width='60' height="40" /></button>
+    </div>
+
+
+
+
+    <!-- TEMPLATE -->
+    <template class="todo-template">
+        <li class="list-item">
+            <img class="todo-img" src="https://via.placeholder.com/120X150" alt="img" width="120" height="150">
+            <h2 class="todo-title">todo title</h2>
+            <p class="todo-type">todo type</p>
+            <p class="todo-year">todo-yaer</p>
+            <p class="imdb-id">imdb-id</p>
+        </li>
+    </template>
+
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
